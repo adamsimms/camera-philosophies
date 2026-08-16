@@ -6,7 +6,7 @@ camera-philosophies is a software-defined experimental camera platform for Raspb
 
 Interpretive Camera MVP: documentary capture (`original`), context-shaped second image (`interpretive`), portable shot package. Not Fielding's rover payload. Not Dreamberry's generative window.
 
-Canonical files: [README.md](README.md), `schemas/shot-package.schema.json`, `src/camera_pi/` (import path unchanged).
+Canonical files: [README.md](README.md), `schemas/shot-package.schema.json`, `src/camera_philosophies/`.
 
 ## Private vault
 

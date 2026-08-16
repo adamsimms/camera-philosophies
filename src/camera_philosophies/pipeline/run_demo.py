@@ -6,8 +6,8 @@ from dataclasses import asdict
 from datetime import datetime, timezone
 from pathlib import Path
 
-from src.camera_pi.profiles.base import ShotContext
-from src.camera_pi.profiles.interpretive import InterpretiveProfile
+from camera_philosophies.profiles.base import ShotContext
+from camera_philosophies.profiles.interpretive import InterpretiveProfile
 
 
 def _simulated_capture() -> str:
