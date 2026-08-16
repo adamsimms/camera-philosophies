@@ -1,0 +1,13 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+examples/output/
+chat-archive-*.md
+
+# Machine-specific vault path and multi-root workspace (home-directory paths).
+.cursor/rules/vault-local.mdc
+*.code-workspace

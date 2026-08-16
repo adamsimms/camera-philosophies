@@ -1,0 +1,11 @@
+[project]
+name = "camera-philosophies"
+version = "0.1.0"
+description = "Software-defined experimental camera platform for Raspberry Pi"
+requires-python = ">=3.10"
+readme = "README.md"
+dependencies = []
+
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"

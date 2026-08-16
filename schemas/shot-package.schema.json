@@ -1,0 +1,112 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://camera-pi.local/schemas/shot-package.schema.json",
+  "title": "Shot Package",
+  "description": "Portable archive format for one camera capture event.",
+  "type": "object",
+  "required": [
+    "id",
+    "captured_at",
+    "profile",
+    "files",
+    "context",
+    "note"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unique shot identifier."
+    },
+    "captured_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "profile": {
+      "type": "string",
+      "description": "Active camera philosophy/profile name."
+    },
+    "files": {
+      "type": "object",
+      "required": [
+        "original",
+        "interpretive"
+      ],
+      "properties": {
+        "original": {
+          "type": "string"
+        },
+        "interpretive": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "context": {
+      "type": "object",
+      "required": [
+        "location",
+        "weather",
+        "time"
+      ],
+      "properties": {
+        "location": {
+          "type": "object",
+          "required": [
+            "latitude",
+            "longitude"
+          ],
+          "properties": {
+            "latitude": {
+              "type": "number"
+            },
+            "longitude": {
+              "type": "number"
+            },
+            "place_label": {
+              "type": "string"
+            }
+          },
+          "additionalProperties": true
+        },
+        "weather": {
+          "type": "object",
+          "properties": {
+            "condition": {
+              "type": "string"
+            },
+            "temperature_c": {
+              "type": "number"
+            },
+            "humidity_percent": {
+              "type": "number"
+            },
+            "wind_kph": {
+              "type": "number"
+            }
+          },
+          "additionalProperties": true
+        },
+        "time": {
+          "type": "object",
+          "properties": {
+            "local_hour": {
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 23
+            },
+            "is_blue_hour": {
+              "type": "boolean"
+            }
+          },
+          "additionalProperties": true
+        }
+      },
+      "additionalProperties": true
+    },
+    "note": {
+      "type": "string",
+      "description": "One-line atmosphere note."
+    }
+  },
+  "additionalProperties": false
+}
