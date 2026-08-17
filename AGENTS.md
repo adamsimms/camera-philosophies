@@ -10,7 +10,7 @@ Canonical files: [README.md](README.md), `schemas/shot-package.schema.json`, `sr
 
 ## Private vault
 
-Working notes live in a local Obsidian vault shared with Rover, Glowberry, and Dreamberry. A gitignored Cursor rule names the path on this machine. Start at `MOCs/Studio - MOC - Vault Index.md`, then `MOCs/Camera Philosophies - MOC - Project Index.md`. Do not copy this project into `rover` or `dreamberry` unless the artist asks.
+Working notes live in a local Obsidian vault shared with Rover, Glowberry, and Dreamberry. A gitignored Cursor rule names the path on this machine. Start at `Studio - MOC - Vault Index.md`, then `Camera Philosophies/MOCs/Camera Philosophies - MOC - Project Index.md`. Do not copy this project into `rover` or `dreamberry` unless the artist asks.
 
 ## Bibliography / Zotero
 
