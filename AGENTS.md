@@ -8,13 +8,13 @@ Interpretive Camera MVP: documentary capture (`original`), context-shaped second
 
 Canonical files: [README.md](README.md), `schemas/shot-package.schema.json`, `src/camera_philosophies/`.
 
-## Private vault
+## Private material
 
-Working notes live in a local Obsidian vault shared with Rover, Glowberry, and Dreamberry. A gitignored Cursor rule names the path on this machine. Start at `Studio - MOC - Vault Index.md`, then `Camera Philosophies/MOCs/Camera Philosophies - MOC - Project Index.md`. Do not copy this project into `rover` or `dreamberry` unless the artist asks.
+Private research notes live in the private studio repo (adamsimms/studio, `research/camera-philosophies/`). Nothing from studio comes into this repo unless Adam approves it. Never put a phone number or home address here; a global pre-commit guard blocks them.
 
 ## Bibliography / Zotero
 
-Zotero is the PDF and source library. This vault does not sync with it. Do not query `~/Zotero/zotero.sqlite`. Do not invent citations. Optional `citekey` / `zotero` fields on vault CITATION notes are breadcrumbs only.
+Zotero is the PDF and source library (project collection TBD; ask Adam). Do not query `~/Zotero/zotero.sqlite`. Do not invent citations.
 
 ## Hard rules
 
