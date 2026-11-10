@@ -8,6 +8,10 @@ venv/
 examples/output/
 chat-archive-*.md
 
-# Machine-specific vault path and multi-root workspace (home-directory paths).
-.cursor/rules/vault-local.mdc
+# Multi-root workspace (home-directory paths).
 *.code-workspace
+
+# Env / secrets
+.env
+.env.*
+!.env.example

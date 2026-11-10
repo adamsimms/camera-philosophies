@@ -14,10 +14,25 @@ Private research notes live in the private studio repo (adamsimms/studio, `resea
 
 ## Bibliography / Zotero
 
-Zotero is the PDF and source library (project collection TBD; ask Adam). Do not query `~/Zotero/zotero.sqlite`. Do not invent citations.
+Zotero is the source library (public library; no project collection yet, ask Adam). Writing to Zotero is publishing: only approved batches. Do not query `~/Zotero/zotero.sqlite`. Do not invent citations.
 
 ## Hard rules
 
 - Do not invent hardware that is not in the README or code.
 - Simulated capture stays simulated until a real Pi camera path is wired.
 - Public twin is this README until a `docs/` tree exists.
+- Secrets only via `.env`; see `.env.example`.
+
+Docs policy and the decisions rule (work decision vs proposal choice vs option): [`.cursor/rules/docs.mdc`](.cursor/rules/docs.mdc). Until a `docs/` tree exists, the README is the brief.
+
+## GitHub
+
+Issues here are about the work. Applications, calls and their deadlines are tracked in the private studio repo, not here. Issue titles have no kind prefix; kind lives on labels.
+
+## Project media
+
+Photos, test captures, renders and video never stay in this repo's ignored folders: they are not backed up. They go to the project's synced Drive folder, `$MEDIA_DIR` (`30 STUDIO/32 PROJECTS/CAMERA-PHILOSOPHIES/`): `01-REFERENCES`, `02-STUDIES`, `03-TESTS`, `04-ARTWORK`, `05-DOCUMENTATION`. Inside 02 and 03, one dated folder per piece of work: `<YYYY-MM>-<NAME>`. `examples/output/` is a local cache of simulated runs.
+
+## Support
+
+No funder support to acknowledge yet. When an award lands, add the funder and its acknowledgement wording here and in the README.
