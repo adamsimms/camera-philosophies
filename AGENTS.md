@@ -31,7 +31,7 @@ Issues here are about the work. Applications, calls and their deadlines are trac
 
 ## Project media
 
-Photos, test captures, renders and video never stay in this repo's ignored folders: they are not backed up. They go to the project's synced Drive folder, `$MEDIA_DIR` (`30 STUDIO/32 PROJECTS/CAMERA-PHILOSOPHIES/`): `01-REFERENCES`, `02-STUDIES`, `03-TESTS`, `04-ARTWORK`, `05-DOCUMENTATION`. Inside 02 and 03, one dated folder per piece of work: `<YYYY-MM>-<NAME>`. `examples/output/` is a local cache of simulated runs.
+Photos, test captures, renders and video never stay in this repo's ignored folders: they are not backed up. They go to the project's media folder, `$MEDIA_DIR` (`30 STUDIO/32 PROJECTS/CAMERA-PHILOSOPHIES/`), a local outbox that a daily job copies to off-site storage and clears 14 days after the copies are verified. Older media is fetched from that storage, not read back from `$MEDIA_DIR`. Stages: `01-REFERENCES`, `02-STUDIES`, `03-TESTS`, `04-ARTWORK`, `05-DOCUMENTATION`. Inside 02 and 03, one dated folder per piece of work: `<YYYY-MM>-<NAME>`. `examples/output/` is a local cache of simulated runs.
 
 ## Support
 
